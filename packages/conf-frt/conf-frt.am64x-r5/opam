@@ -1,0 +1,17 @@
+opam-version: "2.0"
+maintainer: "Takayuki Imada <takayuki.imada@gmail.com>"
+authors: "Takayuki Imada <takayuki.imada@gmail.com>"
+homepage: "https://github.com/TImada/conf-frt"
+bug-reports: "https://github.com/TImada/conf-frt/issues/"
+license: "ISC"
+tags: "org:mirage"
+dev-repo: "git+https://github.com/TImada/conf-frt.git"
+version: "am64x-r5"
+depends: [ "solo5-frt-am64x-r5" ]
+available: [
+  ((os = "linux" & (arch = "x86_64" | arch = "arm64")))
+]
+synopsis: "FreeRTOS-based tender configuration for Solo5"
+description:
+  "This package provides configuration functionality to use a TI AM64x Cortex-R5 processor for a FreeRTOS-based tender in Solo5."
+flags: conf

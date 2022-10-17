@@ -1,0 +1,45 @@
+opam-version: "2.0"
+maintainer: "Martin Lucina <martin@lucina.net>"
+authors: "Martin Lucina <martin@lucina.net>"
+homepage: "https://github.com/mirage/ocaml-solo5"
+bug-reports: "https://github.com/mirage/ocaml-solo5/issues/"
+license: "MIT"
+tags: "org:mirage"
+dev-repo: "git+https://github.com/mirage/ocaml-solo5.git"
+build: [
+  ["env" "PLATFORM_DIR=%{prefix}%/solo5-frt-%{conf-frt:soc}%"
+   "./configure.sh"
+   "--prefix=%{prefix}%"
+   "--target=%{conf-frt:soc}%-solo5-none-static"
+   "--ocaml-configure-option=--disable-flat-float-array" {ocaml-option-no-flat-float-array:installed}
+   "--ocaml-configure-option=--enable-flambda" {ocaml-option-flambda:installed}
+   "--ocaml-configure-option=--disable-naked-pointers" {ocaml-option-nnp:installed}
+  ]
+  [make "-j%{jobs}%"]
+]
+install: [make "install" ]
+depends: [
+  "conf-which" {build}
+  "ocamlfind" {build} # needed by dune context (for tests)
+  "ocaml-embedded-src" {build}
+  "solo5-frt" {>= "0.7.0" }
+  "conf-frt" # Target SoC must be configured
+]
+conflicts: [
+  "ocaml-solo5"
+  "ocaml-solo5-cross-aarch64"
+  "sexplib" {= "v0.9.0"}
+  "solo5-kernel-ukvm"
+  "solo5-kernel-virtio"
+  "solo5-kernel-muen"
+]
+available: [
+  (os = "linux" & (arch = "x86_64" | arch = "arm64"))
+]
+synopsis: "Freestanding OCaml compiler"
+description:
+  "This package provides a OCaml cross-compiler for ARMv7-R, suitable for linking with a Solo5 unikernel."
+url {
+  src: "https://github.com/TImada/ocaml-solo5/archive/refs/tags/v0.8.1-frt.tar.gz"
+  checksum: "md5=8a3219204ce90f26af73d3565e4661a5"
+}
