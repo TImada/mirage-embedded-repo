@@ -41,5 +41,5 @@ description:
   "This package provides a OCaml cross-compiler for ARMv7-R, suitable for linking with a Solo5 unikernel."
 url {
   src: "https://github.com/TImada/ocaml-solo5/archive/refs/tags/v0.8.1-frt.tar.gz"
-  checksum: "md5=8a3219204ce90f26af73d3565e4661a5"
+  checksum: "md5=6505b2f5d53f5fc84c86cbe0eae8301d"
 }
