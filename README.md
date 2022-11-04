@@ -5,11 +5,11 @@ This repository provides additional opam pakcages required to try MirageOS/Solo5
 ## Porting details
 
 - New binding/tender named 'frt' in Solo5 is introduced 
-- Check [this document](https://github.com/TImada/solo5-embedded)
+- Check the [solo5-embedded](https://github.com/TImada/solo5-embedded) repository
 
 ## Supported MCUs
 
-- ARM Cortex(r)-R5F core on TI AM64x series
+- TI AM64x Cortex(r)-R5 core
 
 ## Supported peripheral devices
 
@@ -17,7 +17,7 @@ This repository provides additional opam pakcages required to try MirageOS/Solo5
 
 ## How to use
 
-- Available soon!
+- [TI AM64x Cortex(r)-R5 core](https://github.com/TImada/solo5-frt-am64x-r5)
 
 ## Added packages in this repository
 
