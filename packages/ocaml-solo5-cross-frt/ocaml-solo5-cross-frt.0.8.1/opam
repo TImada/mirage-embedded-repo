@@ -40,6 +40,6 @@ synopsis: "Freestanding OCaml compiler"
 description:
   "This package provides a OCaml cross-compiler for ARMv7-R, suitable for linking with a Solo5 unikernel."
 url {
-  src: "https://github.com/TImada/ocaml-solo5/archive/refs/tags/v0.8.1-frt.tar.gz"
-  checksum: "md5=6505b2f5d53f5fc84c86cbe0eae8301d"
+  src: "https://github.com/TImada/ocaml-solo5/archive/refs/tags/v0.8.1-frt-20230405.tar.gz"
+  checksum: "md5=051c1fb82fc1472dbd96fde928cef446"
 }

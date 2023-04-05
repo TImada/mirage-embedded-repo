@@ -32,6 +32,6 @@ This package provides the Solo5 components needed to cross-build
 MirageOS unikernels running on top of FreeRTOS for baremetal platforms.
 """
 url {
-  src: "https://github.com/TImada/solo5/releases/download/v0.7.3-frt/solo5-v0.7.3-frt.tar.gz"
-  checksum: "md5=51638adc51f1b0f3d308f74509e401f9"
+  src: "https://github.com/TImada/solo5/archive/refs/tags/v0.7.3-frt-20230405.tar.gz"
+  checksum: "md5=ebb6f699782be02f11a5622a9ee72b74"
 }
