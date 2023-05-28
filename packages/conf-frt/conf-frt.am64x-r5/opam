@@ -1,11 +1,11 @@
 opam-version: "2.0"
 maintainer: "Takayuki Imada <takayuki.imada@gmail.com>"
 authors: "Takayuki Imada <takayuki.imada@gmail.com>"
-homepage: "https://github.com/TImada/conf-frt"
-bug-reports: "https://github.com/TImada/conf-frt/issues/"
+homepage: "https://github.com/TImada/mirage-embedded-repo"
+bug-reports: "https://github.com/TImada/mirage-embedded-repo/issues/"
 license: "ISC"
 tags: "org:mirage"
-dev-repo: "git+https://github.com/TImada/conf-frt.git"
+dev-repo: "git+https://github.com/TImada/mirage-embedded-repo.git"
 version: "am64x-r5"
 depends: [ "solo5-frt-am64x-r5" ]
 available: [
