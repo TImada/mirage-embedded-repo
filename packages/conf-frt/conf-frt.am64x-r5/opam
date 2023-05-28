@@ -9,7 +9,7 @@ dev-repo: "git+https://github.com/TImada/mirage-embedded-repo.git"
 version: "am64x-r5"
 depends: [ "solo5-frt-am64x-r5" ]
 available: [
-  ((os = "linux" & (arch = "x86_64" | arch = "arm64")))
+  ((os = "linux" & (arch = "x86_32" | arch = "x86_64" | arch = "arm")))
 ]
 synopsis: "FreeRTOS-based tender configuration for Solo5"
 description:
