@@ -10,6 +10,7 @@ This repository provides additional opam pakcages required to try MirageOS/Solo5
 ## Supported MCUs
 
 - TI AM64x Cortex(r)-R5 core
+- NXP i.MX RT1176 Cortex(r)-M7 core
 
 ## Supported peripheral devices
 
@@ -32,4 +33,5 @@ This repository provides additional opam pakcages required to try MirageOS/Solo5
 - [ocaml-solo5](https://github.com/TImada/ocaml-solo5/tree/frt) (with Solo5 frt support)
 - [solo5](https://github.com/TImada/solo5/tree/frt) (with Solo5 frt support)
 - [solo5-frt-am64x-r5](https://github.com/TImada/solo5-frt-am64x-r5) (TI AM64x/Cortex(r)-R5F specific files for Solo5 frt)
+- [solo5-frt-rt1176-m7](https://github.com/TImada/solo5-frt-rt1176-m7) (NXP i.MX RT1176/Cortex(r)-M7 specific files for Solo5 frt)
 - [conf-frt](https://github.com/TImada/mirage-embedded-repo/tree/main/packages/conf-frt) (MCU selection functionality for Solo5 frt)
