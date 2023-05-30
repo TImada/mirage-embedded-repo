@@ -1,3 +1,4 @@
 opam-version: "2.0"
 browse: "https://github.com/TImada/mirage-embedded-repo/tree/main/packages"
 upstream: "https://github.com/TImada/mirage-embedded-repo"
+stamp: "b403a9a9"
