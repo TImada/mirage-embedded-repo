@@ -1,0 +1,11 @@
+opam-version: "2.0"
+maintainer: "opam-devel@lists.ocaml.org"
+license: "LGPL-2.1-or-later WITH OCaml-LGPL-linking-exception"
+authors: "OCaml contributors"
+homepage: "http://ocaml.org/"
+install: ["cp" "-r" "." "%{lib}%/ocaml-embedded-src"]
+synopsis: "Compiler sources based on version 4.14.1 for embedded processors"
+url {
+  src: "https://github.com/TImada/ocaml/archive/refs/tags/4.14.1-embedded-2023.07.tar.gz"
+  checksum: "md5=a7b2f493849e4f1ef1eb5b6f79b6d812"
+}

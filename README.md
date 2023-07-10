@@ -20,6 +20,7 @@ This repository provides additional opam pakcages required to try MirageOS/Solo5
 ## How to use
 
 - [TI AM64x Cortex(r)-R5 core](https://github.com/TImada/solo5-frt-am64x-r5)
+- [NXP i.MX RT1176 Cortex(r)-M7 core](https://github.com/TImada/solo5-frt-rt1176-m7)
 
 ## Added packages in this repository
 
