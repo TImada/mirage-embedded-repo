@@ -20,7 +20,7 @@ $ opam pin add -n mirage-crypto-ec 0.10.7
 $ opam pin add -n mirage-crypto-pk 0.10.7
 $ opam pin add -n mirage-crypto-rng 0.10.7
 $ opam pin add -n mirage-crypto-rng-async 0.10.7
-$ opam pin add -n mirage-crypto-rng-eio.0 10.7
+$ opam pin add -n mirage-crypto-rng-eio 0.10.7
 $ opam pin add -n mirage-crypto-rng-mirage 0.10.7
 ```
 
