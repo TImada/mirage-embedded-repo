@@ -1,0 +1,21 @@
+opam-version: "2.0"
+maintainer: "Takayuki Imada <takayuki.imada@gmail.com>"
+authors: "Takayuki Imada <takayuki.imada@gmail.com>"
+homepage: "https://github.com/TImada/solo5-frt-rt1176-m7"
+bug-reports: "https://github.com/TImada/solo5-frt-rt1176-m7/issues/"
+license: "ISC"
+tags: "org:mirage"
+dev-repo: "git+https://github.com/TImada/solo5-frt-rt1176-m7.git"
+build: [ make "all" ]
+install: [ "./install.sh" ]
+remove: [ "./uninstall.sh" ]
+available: [
+  ((os = "linux" & (arch = "x86_64")))
+]
+synopsis: "Solo5 platform layer for a Cortex(r)-M7 core on i.MX RT1176"
+description:
+  "This package provides required files to build the Solo5 tender running on top of a Cortex(r)-M7 core on i.MX RT1176."
+url {
+  src: "https://github.com/TImada/solo5-frt-rt1176-m7/archive/refs/tags/v0.1.1.tar.gz"
+  checksum: "md5=7c973225206c2d273325ecb798954dab"
+}
